@@ -1,0 +1,25 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  
+  <title>ZeroClipboard - Simple Example</title>
+</head>
+<script src="jquery-1.8.2.min.js" type="text/javascript"></script>
+<script src="ZeroClipboard.js"></script>
+
+<script>
+  $(function(){
+    var client = new ZeroClipboard($(".clipboard"));
+  });
+</script>
+
+<body>
+  <button class="clipboard" data-clipboard-text="Hello World">Click To Copy "Hello World"</button><br><br>
+  <label >Test Area</><br>
+  <textarea></textarea>
+</body>
+
+</html>
